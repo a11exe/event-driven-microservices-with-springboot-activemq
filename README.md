@@ -1,20 +1,20 @@
 # Event-Driven Microservices with Spring Boot and ActiveMQ
 
-[original](https://itnext.io/event-driven-microservices-with-spring-boot-and-activemq-5ef709928482)
+[original article](https://itnext.io/event-driven-microservices-with-spring-boot-and-activemq-5ef709928482)
 
-![Spring Boot and ActiveMQ](https://github.com/a11exe/eventdrivenmicroserviceswithspringbootactivemq/blob/master/SpringMQ.png.png)
+![Spring Boot and ActiveMQ](https://github.com/a11exe/event-driven-microservices-with-springboot-activemq/blob/master/SpringMQ.png)
 
 Event-driven communication is important when propagating changes across several microservices and their related domain models. This means that when changes occur, we need some way to coordinate changes across the different models. This ensures reliable communication as well as loose coupling between microservices.
 There are multiple patterns to achieve event-driven architecture. One of the common and popular one is messaging pattern. This is extremely scalable, flexible and guarantee delivery of messages. There are several tools that can be used for messaging pattern such as RabbitMQ, ActiveMQ, Apache Kafka and so on.
 
-![MessagingPattern](https://github.com/a11exe/eventdrivenmicroserviceswithspringbootactivemq/blob/master/MessagingPattern.png)
+![MessagingPattern](https://github.com/a11exe/event-driven-microservices-with-springboot-activemq/blob/master/MessagingPattern.png)
 
 ## Installing ActiveMQ
 
 Installed ActiveMQ by downloading [here](https://activemq.apache.org/components/classic/download/)
 Once you have installed, the ActiveMQ server should be available at [http://localhost:8161/admin](http://localhost:8161/admin) and we will see the following welcome page.
 
-![ActiveMQ](https://github.com/a11exe/eventdrivenmicroserviceswithspringbootactivemq/blob/master/ActiveMQ.png)
+![ActiveMQ](https://github.com/a11exe/event-driven-microservices-with-springboot-activemq/blob/master/ActiveMQ.png)
 
 ## Run receiver spring boot application
 
